@@ -1,0 +1,37 @@
+.iconecard {
+    background: linear-gradient(140deg, #4993d7, #6931c5);
+    border-radius: 5px;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+}
+
+.carrousel {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 15px;
+    gap: 30px;
+}
+
+.Illustration {
+    padding: 1px;
+}
+
+.Card {
+    background-color: #252836;
+    width: 13rem;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.Titre {
+    text-align: center;
+    color: #4993d7;
+}
+
+.Desc {
+    text-align: center;
+    font-size: 11px;
+}

@@ -1,0 +1,26 @@
+.zone {
+    display: flex;
+    justify-content: center;
+}
+
+.Descriptif {
+    display: flex;
+    gap: 20px;
+    width: 50rem;
+}
+
+.iconetext {
+    background: linear-gradient(140deg, #4993d7, #6931c5);
+    border-radius: 5px;
+    width: 2rem;
+    height: 2rem;
+}
+
+.Texttitre {
+    color: #4993d7;
+}
+
+.text {
+    font-size: 11px;
+    text-align: justify;
+}
