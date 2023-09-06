@@ -1,0 +1,9 @@
+.Social {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    position: fixed;
+    margin-top: 5rem;
+}

@@ -1,8 +1,6 @@
 .TOP {
     display: flex;
     justify-content: center;
-    width: 100vw;
-    background: linear-gradient(#151515, #15151520);
 }
 
 .Navbar {
@@ -10,6 +8,7 @@
     width: 80vw;
     display: flex;
     padding: 5px;
+    position: fixed;
 }
 .Titre {
     color: white;
@@ -19,20 +18,21 @@
 .Liens {
     color: white;
     width: 70vw;
+    font-size: 20px;
     display: flex;
     justify-content: space-around;
     font-family: "Teko", sans-serif;
 }
-.Lien {
-    display: flex;
-    justify-content: space-around;
+
+.Lien:hover {
+    color: #4993d7;
+    transition: all 0.5s ease-out;
 }
 
-.Social {
-    width: 20vw;
-    display: flex;
-    justify-content: space-between;
+.Lien {
+    cursor: pointer;
 }
+
 img {
     width: 2rem;
 }
@@ -43,4 +43,5 @@ img {
     border-radius: 5px;
     padding: 10px 40px;
     font-size: medium;
+    font-family: "Teko", sans-serif;
 }
