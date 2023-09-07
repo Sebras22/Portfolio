@@ -7,6 +7,7 @@ import Card from "./components/Cards.jsx";
 import Descriptif from "./components/Descriptif";
 import Social from "./components/Social";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <Card />
             <Descriptif />
             <Skills />
+            <Projects />
         </>
     );
 }

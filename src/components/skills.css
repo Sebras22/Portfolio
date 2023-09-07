@@ -1,4 +1,7 @@
-.cardall {
+.MySkills {
+    color: #4993d7;
+    font-size: 3rem;
+    font-family: "Teko", sans-serif;
 }
 
 .cardskill {
@@ -34,15 +37,36 @@
 
 .all {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
     margin: 15px;
-    gap: 30px;
+    gap: 50px;
     width: 10rem;
+}
+
+.skillback {
+    background-color: #282828;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 20px #151515;
+    width: 80rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7rem;
 }
 
 .skillplacement {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.info {
+    background: linear-gradient(140deg, #4993d7, #6931c5);
+    border-radius: 5px;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
 }
