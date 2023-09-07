@@ -18,7 +18,7 @@ export const Card = [
 
 export const Desc = [
     {
-        src: "./assets/Crea.png",
+        src: "${url(/assets/Orga.png)}",
         name: "Who am I ?",
         text: "Lorem ipsum dolor sit amet. Quo omnis harum ut sapiente voluptas est galisum eligendi et tempora molestias ad dignissimos galisum eos rerum similique? Et sint rerum ut odio natus et deleniti modi ex consequatur perspiciatis aut velit dolorum in nemo amet. Lorem ipsum dolor sit amet. Quo omnis harum ut sapiente voluptas est galisum eligendi et tempora molestias ad dignissimos galisum eos rerum similique? Et sint rerum ut odio natus et deleniti modi ex consequatur perspiciatis aut velit dolorum in nemo amet.",
     },

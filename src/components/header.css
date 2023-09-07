@@ -3,12 +3,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 .Job {
     font-family: "Teko", sans-serif;
-    font-size: xx-large;
+    font-size: 3rem;
 }
 
 .Me {
@@ -20,10 +20,11 @@
     align-items: center;
     flex-direction: column;
     word-wrap: break-word;
-    background-color: #252836;
+    background-color: #282828;
     border-radius: 10px;
     padding: 10px;
-    font-size: small;
+    font-size: 20px;
+    box-shadow: inset 0px 0px 20px #151515;
 }
 
 span {

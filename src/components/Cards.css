@@ -1,9 +1,13 @@
 .iconecard {
     background: linear-gradient(140deg, #4993d7, #6931c5);
     border-radius: 5px;
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     position: absolute;
+}
+
+.cardplacement {
+    margin-top: 5rem;
 }
 
 .carrousel {
@@ -19,19 +23,22 @@
 }
 
 .Card {
-    background-color: #252836;
-    width: 13rem;
+    background-color: #282828;
+    width: 17rem;
     border-radius: 5px;
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
+    box-shadow: inset 0px 0px 20px #151515;
 }
 
 .Titre {
     text-align: center;
     color: #4993d7;
+    font-size: 30px;
+    font-family: "Teko", sans-serif;
 }
 
 .Desc {
     text-align: center;
-    font-size: 11px;
+    font-size: 17px;
 }

@@ -10,15 +10,15 @@
     padding: 5px;
     position: fixed;
 }
-.Titre {
-    color: white;
-    font-size: x-large;
+.Nom {
+    color: #4993d7;
+    font-size: 3rem;
     font-family: "Teko", sans-serif;
 }
 .Liens {
     color: white;
     width: 70vw;
-    font-size: 20px;
+    font-size: 40px;
     display: flex;
     justify-content: space-around;
     font-family: "Teko", sans-serif;
@@ -26,22 +26,19 @@
 
 .Lien:hover {
     color: #4993d7;
-    transition: all 0.5s ease-out;
+    transition: 0.5s ease-out;
 }
 
 .Lien {
     cursor: pointer;
 }
 
-img {
-    width: 2rem;
-}
 .BoutonContact {
     color: white;
     background: linear-gradient(140deg, #4993d7, #6931c5);
     border: none;
     border-radius: 5px;
     padding: 10px 40px;
-    font-size: medium;
+    font-size: 30px;
     font-family: "Teko", sans-serif;
 }

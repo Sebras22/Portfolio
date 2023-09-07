@@ -1,26 +1,36 @@
 .zone {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto;
     justify-content: center;
+    margin-top: 8rem;
+    gap: 5rem;
 }
 
 .Descriptif {
     display: flex;
     gap: 20px;
-    width: 50rem;
+    width: 70rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #282828;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 20px #151515;
 }
 
 .iconetext {
     background: linear-gradient(140deg, #4993d7, #6931c5);
     border-radius: 5px;
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
 }
 
 .Texttitre {
     color: #4993d7;
+    font-size: 30px;
 }
 
 .text {
-    font-size: 11px;
+    font-size: 17px;
     text-align: justify;
 }

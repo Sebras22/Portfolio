@@ -1,31 +1,27 @@
 import React from "react";
 import "./Descriptif.css";
+import { Desc } from "./Array.jsx";
+import blob from "../assets/blob.png";
 
 function Descriptif() {
     return (
         <>
             <div className="zone">
-                <div className="Descriptif">
-                    <div className="Toptext">
-                        <div className="iconetext">Logo</div>
-                    </div>
-                    <div>
-                        <div className="Texttitre">Test</div>
-                        <div className="text">
-                            Lorem ipsum dolor sit amet. Quo omnis harum ut
-                            sapiente voluptas est galisum eligendi et tempora
-                            molestias ad dignissimos galisum eos rerum
-                            similique? Et sint rerum ut odio natus et deleniti
-                            modi ex consequatur perspiciatis aut velit dolorum
-                            in nemo amet. Lorem ipsum dolor sit amet. Quo omnis
-                            harum ut sapiente voluptas est galisum eligendi et
-                            tempora molestias ad dignissimos galisum eos rerum
-                            similique? Et sint rerum ut odio natus et deleniti
-                            modi ex consequatur perspiciatis aut velit dolorum
-                            in nemo amet.
+                {Desc.map((el, id) => {
+                    return (
+                        <div className="Descriptif">
+                            <div className="Toptext">
+                                <div className="iconetext">
+                                    <img src={el.src} alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <div className="Texttitre">{el.name}</div>
+                                <div className="text">{el.text}</div>
+                            </div>
                         </div>
-                    </div>
-                </div>
+                    );
+                })}
             </div>
         </>
     );

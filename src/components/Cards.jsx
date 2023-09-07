@@ -9,7 +9,7 @@ function Cards() {
             <div className="carrousel">
                 {Card.map((el, id) => {
                     return (
-                        <div key={id}>
+                        <div className="cardplacement" key={id}>
                             <div className="iconecard">
                                 <img
                                     className="Illustration"
@@ -30,29 +30,3 @@ function Cards() {
 }
 
 export default Cards;
-
-// function Cards() {
-//     return (
-//         <>
-//             <div className="carrousel">
-//                 {Card.map((el, id) => {
-//                     return (
-//                         <div className="">
-//                             <div className="iconecard" key={id}>
-//                                 <img
-//                                     className="Illustration"
-//                                     src={el.src}
-//                                     alt=""
-//                                 />
-//                             </div>
-//                             <div className="Card">
-//                                 <div className="Titre">{el.name}</div>
-//                                 <div className="Desc">{el.text}</div>
-//                             </div>
-//                         </div>
-//                     );
-//                 })}
-//             </div>
-//         </>
-//     );
-// }
