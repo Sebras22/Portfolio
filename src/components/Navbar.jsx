@@ -6,7 +6,7 @@ function Navbar() {
         <>
             <div className="TOP">
                 <div className="Navbar">
-                    <div className="Nom">{"</Seb>"}</div>
+                    <div className="Nom">{"<Seb/>"}</div>
                     <div className="Liens">
                         <div className="Lien">Accueil</div>
                         <div className="Lien">Skills </div>

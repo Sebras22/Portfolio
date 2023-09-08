@@ -1,5 +1,15 @@
+.Projects {
+    display: grid;
+    justify-content: center;
+}
 .MyProjects {
     color: #4993d7;
     font-size: 3rem;
     font-family: "Teko", sans-serif;
+}
+
+.Proposition {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 60px 60px;
 }

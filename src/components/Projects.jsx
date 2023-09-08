@@ -5,11 +5,20 @@ import { projets } from "./Array";
 function Projects() {
     return (
         <>
-            <div>
+            <div className="Projects">
                 <div className="MyProjects">My Projects</div>
-                {projets.map((el, id) => {
-                    return <div></div>;
-                })}
+                <div className="Proposition">
+                    {projets.map((el, id) => {
+                        return (
+                            <div>
+                                <div>{el.name}</div>
+                                <div>
+                                    <img src={el.src} alt="" />
+                                </div>
+                            </div>
+                        );
+                    })}
+                </div>
             </div>
         </>
     );

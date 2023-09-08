@@ -9,6 +9,8 @@
     display: flex;
     padding: 5px;
     position: fixed;
+    background-color: #151515;
+    z-index: 1;
 }
 .Nom {
     color: #4993d7;
