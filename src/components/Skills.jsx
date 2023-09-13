@@ -1,6 +1,5 @@
 import React from "react";
 import "./skills.css";
-import Crea from "../assets/Crea.png";
 import { skill } from "./Array";
 import { skillinfo } from "./Array";
 

@@ -1,7 +1,6 @@
 import React from "react";
 import "./Descriptif.css";
 import { Desc } from "./Array.jsx";
-import blob from "../assets/blob.png";
 
 function Descriptif() {
     return (

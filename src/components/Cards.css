@@ -19,7 +19,9 @@
 }
 
 .Illustration {
+    width: 3rem;
     padding: 1px;
+    align-items: center;
 }
 
 .Card {

@@ -1,13 +1,12 @@
 import React from "react";
 import "./header.css";
-import Me from "../assets/Me.png";
 
 function Header() {
     return (
         <>
             <div className="Header">
                 <div className="Job">Student Developer</div>
-                <img className="Me" src={Me} alt="" />
+                <img className="Me" src="./assets/Me.png" alt="" />
                 <div className="HelloText">
                     <div>
                         Hi, my name is <span>Seb !</span>

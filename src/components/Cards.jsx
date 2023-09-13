@@ -1,6 +1,5 @@
 import React from "react";
 import "./Cards.css";
-import Crea from "../assets/Crea.png";
 import { Card } from "./Array.jsx";
 
 function Cards() {
