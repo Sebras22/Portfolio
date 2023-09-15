@@ -8,9 +8,15 @@ function Navbar() {
                 <div className="Navbar">
                     <div className="Nom">{"<Seb/>"}</div>
                     <div className="Liens">
-                        <div className="Lien">Accueil</div>
-                        <div className="Lien">Skills </div>
-                        <div className="Lien">Portfolio</div>
+                        <a href="#Accueil" className="Lien">
+                            Accueil
+                        </a>
+                        <a href="#skills" className="Lien">
+                            Skills{" "}
+                        </a>
+                        <a href="#Portfolio" className="Lien">
+                            Portfolio
+                        </a>
                     </div>
                     <button className="BoutonContact">Contact</button>
                 </div>

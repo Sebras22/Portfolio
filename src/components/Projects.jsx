@@ -5,7 +5,7 @@ import { projets } from "./Array";
 function Projects() {
     return (
         <>
-            <div className="Projects">
+            <div id="Portfolio" className="Projects">
                 <div className="MyProjects">My Projects</div>
                 <div className="Proposition">
                     {projets.map((el, id) => {

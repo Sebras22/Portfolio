@@ -43,38 +43,96 @@ export const skillinfo = [
     },
 ];
 
-export const skill = [
+export const Frame = [
     {
         name: "test",
         src: "./assets/react.png",
     },
     {
         name: "test",
-        src: "test",
+        src: "./assets/TS.png",
     },
     {
         name: "test",
-        src: "test",
+        src: "./assets/TAI.png",
     },
     {
         name: "test",
-        src: "test",
+        src: "./assets/SASS.png",
     },
     {
         name: "test",
-        src: "test",
+        src: "./assets/incoming.png",
     },
     {
         name: "test",
-        src: "test",
+        src: "./assets/incoming.png",
     },
     {
         name: "test",
-        src: "test",
+        src: "./assets/incoming.png",
+    },
+];
+
+export const To = [
+    {
+        name: "test",
+        src: "./assets/figma.png",
     },
     {
         name: "test",
-        src: "test",
+        src: "./assets/vscode.png",
+    },
+    {
+        name: "test",
+        src: "./assets/stack.png",
+    },
+    {
+        name: "test",
+        src: "./assets/canva.png",
+    },
+    {
+        name: "test",
+        src: "./assets/intellij.png",
+    },
+    {
+        name: "test",
+        src: "./assets/incoming.png",
+    },
+    {
+        name: "test",
+        src: "./assets/incoming.png",
+    },
+];
+
+export const Lang = [
+    {
+        name: "test",
+        src: "./assets/HTML.png",
+    },
+    {
+        name: "test",
+        src: "./assets/JS.png",
+    },
+    {
+        name: "test",
+        src: "./assets/CSS.png",
+    },
+    {
+        name: "test",
+        src: "./assets/NODE.png",
+    },
+    {
+        name: "test",
+        src: "./assets/incoming.png",
+    },
+    {
+        name: "test",
+        src: "./assets/incoming.png",
+    },
+    {
+        name: "test",
+        src: "./assets/incoming.png",
     },
 ];
 

@@ -35,6 +35,7 @@
 .Lien {
     cursor: pointer;
     transition: 0.5s ease-in-out;
+    color: white;
 }
 
 .BoutonContact {

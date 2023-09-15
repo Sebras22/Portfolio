@@ -4,7 +4,7 @@ import "./header.css";
 function Header() {
     return (
         <>
-            <div className="Header">
+            <div id="Accueil" className="Header">
                 <div className="Job">Student Developer</div>
                 <img className="Me" src="./assets/Me.png" alt="" />
                 <div className="HelloText">

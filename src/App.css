@@ -4,4 +4,9 @@
     width: 100%;
     box-sizing: border-box;
     overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
 }

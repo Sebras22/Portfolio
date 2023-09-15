@@ -1,40 +1,18 @@
 import React from "react";
 import "./skills.css";
-import { skill } from "./Array";
-import { skillinfo } from "./Array";
+import Languages from "./Languages";
+import Tools from "./Tools";
+import Frameworks from "./Frameworks";
 
 function Skills() {
     return (
         <>
-            <div className="MySkills">My Skills</div>
-            <div className="skillplacement">
-                {skillinfo.map((el, id) => {
-                    return (
-                        <div className="skillback">
-                            <div className="all">
-                                <div>
-                                    <img
-                                        className="iconeskill"
-                                        src={el.src}
-                                        alt=""
-                                    />
-                                </div>
-                                <div className="Skilltitre">{el.name}</div>
-                            </div>
-
-                            {skill.map((el, id) => {
-                                return (
-                                    <div className="infoplacement">
-                                        <div key={id} className="info">
-                                            <img src={el.src} alt="" />
-                                        </div>
-                                    </div>
-                                );
-                            })}
-                        </div>
-                    );
-                })}
+            <div id="skills" className="MySkills">
+                My Skills
             </div>
+            <Languages />
+            <Tools />
+            <Frameworks />
         </>
     );
 }

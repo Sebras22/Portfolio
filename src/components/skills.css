@@ -1,9 +1,9 @@
 .MySkills {
+    margin-top: 3rem;
     color: #4993d7;
     font-size: 3rem;
     font-family: "Teko", sans-serif;
     text-align: center;
-    margin-top: 3rem;
 }
 
 .cardskill {
@@ -70,4 +70,5 @@
     height: 3rem;
     display: flex;
     justify-content: space-between;
+    padding: 5px;
 }
