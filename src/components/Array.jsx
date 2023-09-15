@@ -46,7 +46,7 @@ export const skillinfo = [
 export const skill = [
     {
         name: "test",
-        src: "test",
+        src: "./assets/react.png",
     },
     {
         name: "test",
@@ -82,25 +82,25 @@ export const projets = [
     {
         name: "Truc",
         desc: "Lorem ipsum dolor sit amet. Quo omnis harum ut sapiente voluptas est galisum eligendi et tempora molestias ad dignissimos galisum eos rerum similique? Et sint rerum ut odio natus et deleniti modi ex consequatur perspiciatis aut velit dolorum in nemo amet. Lorem ipsum dolor sit amet. Quo omnis harum ut sapiente voluptas est galisum eligendi et tempora molestias ad dignissimos galisum eos rerum similique? Et sint rerum ut odio natus et deleniti modi ex consequatur perspiciatis aut velit dolorum in nemo amet.",
-        src: "test",
-        lang: "react",
+        src: "https://platinumlist.net/guide/wp-content/uploads/2023/03/8359_img_worlds_of_adventure-big1613913137.jpg-1024x683.webp",
+        lang: "./assets/Crea.png",
     },
     {
         name: "Truc",
         desc: "Lorem ipsum dolor sit amet. Quo omnis harum ut sapiente voluptas est galisum eligendi et tempora molestias ad dignissimos galisum eos rerum similique? Et sint rerum ut odio natus et deleniti modi ex consequatur perspiciatis aut velit dolorum in nemo amet. Lorem ipsum dolor sit amet. Quo omnis harum ut sapiente voluptas est galisum eligendi et tempora molestias ad dignissimos galisum eos rerum similique? Et sint rerum ut odio natus et deleniti modi ex consequatur perspiciatis aut velit dolorum in nemo amet.",
-        src: "test",
-        lang: "react",
+        src: "https://platinumlist.net/guide/wp-content/uploads/2023/03/8359_img_worlds_of_adventure-big1613913137.jpg-1024x683.webp",
+        lang: "./assets/Crea.png",
     },
     {
         name: "Truc",
         desc: "Lorem ipsum dolor sit amet. Quo omnis harum ut sapiente voluptas est galisum eligendi et tempora molestias ad dignissimos galisum eos rerum similique? Et sint rerum ut odio natus et deleniti modi ex consequatur perspiciatis aut velit dolorum in nemo amet. Lorem ipsum dolor sit amet. Quo omnis harum ut sapiente voluptas est galisum eligendi et tempora molestias ad dignissimos galisum eos rerum similique? Et sint rerum ut odio natus et deleniti modi ex consequatur perspiciatis aut velit dolorum in nemo amet.",
-        src: "test",
-        lang: "react",
+        src: "https://platinumlist.net/guide/wp-content/uploads/2023/03/8359_img_worlds_of_adventure-big1613913137.jpg-1024x683.webp",
+        lang: "./assets/Crea.png",
     },
     {
         name: "Truc",
         desc: "Lorem ipsum dolor sit amet. Quo omnis harum ut sapiente voluptas est galisum eligendi et tempora molestias ad dignissimos galisum eos rerum similique? Et sint rerum ut odio natus et deleniti modi ex consequatur perspiciatis aut velit dolorum in nemo amet. Lorem ipsum dolor sit amet. Quo omnis harum ut sapiente voluptas est galisum eligendi et tempora molestias ad dignissimos galisum eos rerum similique? Et sint rerum ut odio natus et deleniti modi ex consequatur perspiciatis aut velit dolorum in nemo amet.",
-        src: "test",
-        lang: "react",
+        src: "https://platinumlist.net/guide/wp-content/uploads/2023/03/8359_img_worlds_of_adventure-big1613913137.jpg-1024x683.webp",
+        lang: "./assets/Crea.png",
     },
 ];

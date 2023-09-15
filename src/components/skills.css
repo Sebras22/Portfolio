@@ -2,6 +2,8 @@
     color: #4993d7;
     font-size: 3rem;
     font-family: "Teko", sans-serif;
+    text-align: center;
+    margin-top: 3rem;
 }
 
 .cardskill {
@@ -52,14 +54,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 7rem;
+    margin-top: 3rem;
 }
 
 .skillplacement {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5rem;
 }
 
 .info {

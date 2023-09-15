@@ -30,11 +30,11 @@
 
 .Lien:hover {
     color: #4993d7;
-    transition: 0.5s ease-out;
 }
 
 .Lien {
     cursor: pointer;
+    transition: 0.5s ease-in-out;
 }
 
 .BoutonContact {

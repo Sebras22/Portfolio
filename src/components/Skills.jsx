@@ -6,8 +6,8 @@ import { skillinfo } from "./Array";
 function Skills() {
     return (
         <>
+            <div className="MySkills">My Skills</div>
             <div className="skillplacement">
-                <div className="MySkills">My Skills</div>
                 {skillinfo.map((el, id) => {
                     return (
                         <div className="skillback">
@@ -26,7 +26,7 @@ function Skills() {
                                 return (
                                     <div className="infoplacement">
                                         <div key={id} className="info">
-                                            <img src={el.src} alt="" />;
+                                            <img src={el.src} alt="" />
                                         </div>
                                     </div>
                                 );
